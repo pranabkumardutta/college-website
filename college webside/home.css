@@ -1,0 +1,177 @@
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bhadrak.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    justify-content: left;
+    place-items: center;
+    position: relative;
+} 
+
+.header .logoandname .image{
+    display: inline;
+    width: 160px;
+    height: 160px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.header .logoandname .collegename{
+    background-position: center;
+    display: inline;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    font-family:sans-serif;
+    place-items: center;
+    position: absolute;
+    top: 40%;
+    left: 9%;
+    transform: translate(-50,-50);
+    
+   
+
+   
+
+  }
+  .header .logoandname .address{
+
+    color: #fff;
+    display: inline;
+    position: absolute;
+    top: 61%;
+    left:9%;
+    transform: translate(-50,-50);
+    
+     }
+
+     .header .logoandname .address .location{
+        
+        margin-right: 20px;
+     }
+     .header .logoandname .address .estd{
+        margin-right: 20px;
+     }
+     .header .logoandname .address .unversity{
+        margin-right: 20px;
+     }
+     .header .logoandname .address  .naac{
+        margin-right: 20px;
+
+     }
+     .header .logoandname .address .mail{
+        margin-right: 2px;
+
+     }
+     .header .logoandname .address  .contact{
+        margin-right: 20px;
+        
+     }
+     .nav-link{
+        height: 40px;
+        background-color:  white;
+     }
+     nav ul li{
+        list-style-type: none;
+        display: inline-block;
+           
+     }
+     nav ul li a{
+        text-decoration: none;
+        font-weight:bold;
+        font-size:20px;
+        font-family:sans-serif;
+        text-transform:capitalize;
+         padding-left: 1000px;
+        color:#fca311;
+         
+         
+         
+       
+     }
+      
+     
+     .info{
+        width: 80%;
+        margin: auto;
+       
+        padding-top:50px ;
+        
+
+      }
+      .paragraph{
+        margin:300px,300px;
+        text-align: center;
+
+      }
+      h1{
+        font-size: 56px;
+        font-weight: 600;
+        text-align: center;
+        
+      }
+      h2{
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+         
+
+      }
+      h3{
+        font-size: 26px;
+        font-weight: 600;
+        color: red;
+         
+      }
+      p{
+        font-size: 26px;
+        font-weight: 200;
+        color: #003366;
+      
+        padding:10px;
+        font-family: 'sans-serif';
+      }
+      .color{
+        color: #800000;
+      }
+      .list{
+        color: #003366;
+        font-family: 'sans-serif';
+        font-size: 26px;
+
+      }
+      /*-----footer------*/
+      .container{
+        max-width: 1170px;
+        margin: auto;
+      }
+      .row{
+      
+        display:flex;
+        flex-wrap: wrap;
+      }
+      .footer{
+        justify-content: center;
+        background-image: linear-gradient(rgba(6,9,30,0.7),rgba(6,9,30,0.7)),url(bhadrak.png);
+        
+        padding:10px 0px;
+        padding-left: 30px;
+       }
+        
+
+      
+      ul{
+        justify-content: center;
+        list-style: none;
+        
+      }
+      li a{
+        text-decoration: none;
+        color:whitesmoke;
+        font-size: 20px;
+      }

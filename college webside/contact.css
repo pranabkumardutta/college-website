@@ -1,0 +1,165 @@
+ 
+P{
+    line-height: 2px;
+}
+ 
+.container{
+    min-height: 500px;
+    max-width: 1200px;
+    font-size: larger;
+    position: relative;
+    margin-left:25%;
+      justify-content: center;
+    background-image:url("white-abstract-wallpaper_23-2148830026.avif") ;
+  
+  
+    
+
+    
+}
+.container .findushear{
+     display: inline;
+     text-align: left;
+    margin-left:400px;
+
+}
+h2{
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container   .college-information{
+    position: absolute;
+    top:1%;
+    border: 8px;
+    font-family: sans-serif;
+    margin-left:400px;
+
+}
+.container .contact-us{
+    position: absolute;
+    top:1%;
+    right: 0%;
+    margin-right: 100px;
+    height: 100px;
+    width: 200px;
+       
+      border: 8px;
+       
+     
+       
+      
+}
+input{
+    font-size: larger;
+}
+textarea{
+    font-size: larger;
+
+}
+ .submit{
+    
+    background-color:rgb(252, 252, 252);
+    border-radius: 10px;
+     cursor: pointer;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bhadrak.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    justify-content: left;
+    place-items: center;
+    position: relative;
+} 
+
+.header .logoandname .image{
+    display: inline;
+    width: 160px;
+    height: 160px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.header .logoandname .collegename{
+    background-position: center;
+    display: inline;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    font-family:sans-serif;
+    place-items: center;
+    position: absolute;
+    top: 40%;
+    left: 9%;
+    transform: translate(-50,-50);
+    
+   
+
+   
+
+  }
+  .header .logoandname .address{
+
+    color: #fff;
+    display: inline;
+    position: absolute;
+    top: 61%;
+    left:9%;
+    transform: translate(-50,-50);
+    
+     }
+
+     .header .logoandname .address .location{
+        
+        margin-right: 20px;
+     }
+     .header .logoandname .address .estd{
+        margin-right: 20px;
+     }
+     .header .logoandname .address .unversity{
+        margin-right: 20px;
+     }
+     .header .logoandname .address  .naac{
+        margin-right: 20px;
+
+     }
+     .header .logoandname .address .mail{
+        margin-right: 2px;
+
+     }
+     .header .logoandname .address  .contact{
+        margin-right: 20px;
+        
+     }
+     .nav-link{
+        height: 40px;
+        background-color:  white;
+     }
+     nav ul li{
+        list-style-type: none;
+        display: inline-block;
+           
+     }
+     nav ul li a{
+        text-decoration: none;
+        font-weight:bold;
+        font-size:20px;
+        font-family:sans-serif;
+        text-transform:capitalize;
+         padding-left: 1000px;
+        color:#fca311;
+         
+         
+         
+       
+     }
+      
+     
+      

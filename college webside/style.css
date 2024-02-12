@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bhadrak.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    justify-content: left;
+    place-items: center;
+    position: relative;
+} 
+
+.header .logoandname .image{
+    display: inline;
+    width: 160px;
+    height: 160px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.header .logoandname .collegename{
+    background-position: center;
+    display: inline;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    font-family:sans-serif;
+    place-items: center;
+    position: absolute;
+    top: 40%;
+    left: 9%;
+    transform: translate(-50,-50);
+    
+   
+
+   
+
+  }
+  .header .logoandname .address{
+
+    color: #fff;
+    display: inline;
+    position: absolute;
+    top: 59%;
+    left:9%;
+    transform: translate(-50,-50);
+    
+     }
+
+     .header .logoandname .address .location{
+        
+        margin-right: 20px;
+     }
+     .header .logoandname .address .estd{
+        margin-right: 20px;
+     }
+     .header .logoandname .address .unversity{
+        margin-right: 20px;
+     }
+     .header .logoandname .address  .naac{
+        margin-right: 20px;
+
+     }
+     .header .logoandname .address .mail{
+        margin-right: 20px;
+
+     }
+     .header .logoandname .address  .contact{
+        margin-right: 20px;
+        
+     }
+
+     .nav-link{
+        height: 40px;
+        background-color:  white;
+     }
+     nav ul li{
+        list-style-type: none;
+        display: inline-block;
+      padding: 10px 30px;
+     }
+     nav ul li a{
+        text-decoration: none;
+        font-weight:bold;
+        font-size:20px;
+        font-family:sans-serif;
+        text-transform:capitalize;
+        color: black;
+       
+     }
+      
+     nav ul li a:hover{
+        
+        color:#fca311;
+        transition: .3s;
+     }
+
+      
+      /*------- info-----*/
+    
+      .info{
+        width: 80%;
+        margin: auto;
+       
+        padding-top:50px ;
+        
+
+      }
+      .paragraph{
+        margin:300px,300px;
+        text-align: center;
+
+      }
+      h1{
+        font-size: 56px;
+        font-weight: 600;
+        text-align: center;
+        
+      }
+      h2{
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+         
+
+      }
+      h3{
+        font-size: 26px;
+        font-weight: 600;
+        color: red;
+         
+      }
+      p{
+        font-size: 26px;
+        font-weight: 200;
+        color: #003366;
+      
+        padding:10px;
+        font-family: 'sans-serif';
+      }
+      .color{
+        color: #800000;
+      }
+      .list{
+        color: #003366;
+        font-family: 'sans-serif';
+        font-size: 26px;
+
+      }
+      /*-----footer------*/
+      .container{
+        max-width: 1170px;
+        margin: auto;
+      }
+      .row{
+      
+        display:flex;
+        flex-wrap: wrap;
+      }
+      .footer{
+        justify-content: center;
+        background-image: linear-gradient(rgba(6,9,30,0.7),rgba(6,9,30,0.7)),url(bhadrak.png);
+        
+        padding:10px 0px;
+        padding-left: 30px;
+       }
+        
+
+      
+      ul{
+        justify-content: center;
+        list-style: none;
+        
+      }
+      li a{
+        text-decoration: none;
+        color:whitesmoke;
+        font-size: 20px;
+      }
+      .footer-col{
+        text-align: left;
+         
+        
+        width:25%;
+         display:inline;
+      }
+      .footer-col h4{
+       text-align: left;
+        font-size: 30px;
+        color:rgb(255, 255, 255);
+        text-transform: capitalize;
+        margin-bottom: 25px;
+        font-family: sans-serif;
+      }
+      #map{
+        height: 50px;
+        width: 50px;
+      }
+      .copy-right{
+        display: flex;
+        height: 3px;
+         margin-left: 42%;
+        color: #000000;
+      
+        
+      }
+      
+      
+      .copy-right .letter{
+        color: black;
+        text-align: center;
+        align-items: center;
+      }
+     
+    .maindiv{
+      width:70%;
+      height: 400px;
+       margin-left:350px;
+      background-image: url("main\ gate.jpg");
+      background-size: 100% 100%;
+      box-shadow: 2px 3px 10px 5px black;
+      animation: slider 30s infinite step-start;
+
+    }
+    @keyframes slider {
+      
+      0%{ background-image: url("main\ gate.jpg");}
+      12.5%{background-image: url("libreari.jpeg");}
+      25%{background-image: url("images.jpeg");}
+      37.5%{background-image: url("images\ \(1\).jpeg");}
+      50%{background-image: url("download.jpeg");}
+      62.5%{background-image: url("download\ \(1\).jpeg");}
+      75%{background-image: url("bhc\ main\ block.jpeg");}
+      87.5%{background-image: url("bhadrak.png");}
+     100%{background-image: url("rs3vnmdv.rph.jpeg");}
+      
+    }
+    .submenu1{
+      display: none;
+       
+    }
+    .nav-link ul li:hover .submenu1{
+      display: block;
+      position: absolute;
+      background-color: rgba(57, 236, 96, 0.66);
+      margin-top: 5px;
+      transition: .5s;
+    }.nav-link ul li:hover .submenu1  ul{
+      display: block;
+       width: 200px;
+      text-align: left;
+    }
+     
